@@ -2,3 +2,5 @@ requests==2.18.4
 argcomplete==1.10.0
 python_crontab==2.3.9
 termcolor==1.1.0
+
+urllib3>=1.25.9 # not directly required, pinned by Snyk to avoid a vulnerability
